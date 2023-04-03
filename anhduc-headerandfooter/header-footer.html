@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header-footer.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c6ac4db670.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <title>Header-Footer</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="flex justify-between">
+            <div class="header-left">
+                <div class="logo-wrapper">
+                    <a href="" class="logo-anchor">
+                        <img src="logo-header.png" alt="AzureAms" class="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="header-right flex">
+                <div class="menu-ele flex items-center">
+                    <div class="home-wrapper">
+                        <button class="home-anchor anchor">Trang chủ</button>
+                    </div>
+                    <div class="service-wrapper">
+                        <button class="service-anchor anchor">Dịch vụ</button>
+                    </div>
+                    <div class="team-wrapper">
+                        <button class="team-anchor anchor">Team</button>
+                    </div>
+                    <div class="about-wrapper">
+                        <button class="about-anchor anchor">Về CLB</button>
+                    </div>
+                </div>
+                <div class="search-wrapper flex items-center">
+                    <button class="searchTab center button-invis" tabindex="0" aria-label="Search" data-uia="search-box-launcher">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="center search-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 11C13 13.7614 10.7614 16 8 16C5.23858 16 3 13.7614 3 11C3 8.23858 5.23858 6 8 6C10.7614 6 13 8.23858 13 11ZM14.0425 16.2431C12.5758 17.932 10.4126 19 8 19C3.58172 19 0 15.4183 0 11C0 6.58172 3.58172 3 8 3C12.4183 3 16 6.58172 16 11C16 11.9287 15.8417 12.8205 15.5507 13.6497L24.2533 18.7028L22.7468 21.2972L14.0425 16.2431Z" fill="currentColor">
+                            </path>
+                        </svg>
+                    </button>
+                    <form action="" class="form-search">
+                        <input type="text" class="search" placeholder="Tìm kiếm">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="separate">
+
+    </div>
+    <footer class="flex justify-between">
+        <div class="footer-left">
+            <h2 class="footer-left-header">Liên hệ</h2>
+            <div class="footer-left-content-wrapper flex">
+                <div class="logo-wrapper">
+                    <p><i class="fa-solid fa-square-phone"></i></p>
+                    <p><i class="fa-regular fa-envelope"></i></p>
+                    <p><i class="fa-brands fa-square-facebook"></i></p>
+                </div>
+                <div class="footer-left-content">
+                    <p class="footer-left-p">(+84) 975 277 277</p>
+                    <p class="footer-left-p">azureamsprogrammingclub@gmail.com</p>
+                    <p class="footer-left-p">https://facebook.com/azureamsprogramming</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right flex">
+            <div class="logo-wrapper">
+                <img src="logo-footer.png" class="logo-footer" alt="AzureAms">
+            </div>
+            <div class="footer-right-content">
+                <div class="footer-right-header">AzureAms Programming Club</div>
+                <div class="footer-right-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+        </div>
+    </footer>
+    <script src="header-footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* Header */
+nav {
+    background-color: #0F172A;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.anchor {
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    color: white;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-weight: 500
+}
+
+
+/* Search box */
+.searchTab {
+    color: white;
+    font-size: 24px;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;
+    transition: ease transform 1s;
+    transition-delay: 50ms;
+    float: right;
+    z-index: 10;
+}
+.search {
+    outline: none;
+    background-color: #0F172A;
+    box-sizing: border-box;
+    padding: 7px 14px 7px 7px;
+    width: 0%;
+    opacity: 1;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: 700;
+    transition: width .2s linear;
+    float: right
+}
+.active-search {
+    width: 630px;
+    border-bottom: solid 1px rgba(255,255,255,0.85);
+}
+.form-search {
+    position: absolute;
+    right: 70px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0F172A;
+    color: #ffffff;
+    font-family: Nunito, sans-serif;
+    padding-left: 65px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 65px;
+}
+.footer-left-header, .footer-right-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-left-p, .footer-right-p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.logo-footer {
+    width: 138px;
+    height: 138px;
+}
+.footer-right-content {
+    width: 442px;
+}
+.logo-wrapper {
+    margin-right: 10px;
+}
+.fa-square-phone, .fa-envelope, .fa-square-facebook {
+    font-size: 24px;
+    margin-right: 22px;
+}
+.logo-wrapper {
+    padding-top: 5px;
+}
+.fa-envelope {
+    padding-top: 2px;
+}
+.separate {
+    height: 200px;
+}
