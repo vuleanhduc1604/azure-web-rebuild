@@ -305,7 +305,7 @@ footer {
 }
 @media screen and (max-width: 1047px) {
     .menu-ele {
-        display: none;
+        display: none !important;
     }
     .burger-menu {
         display: flex;
