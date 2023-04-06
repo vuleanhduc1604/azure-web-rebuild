@@ -329,7 +329,7 @@ footer {
 }
 @media screen and (max-width: 622px) {
     .footer-right {
-        display: none;
+        display: none !important;
     }
     .logo {
         width: 140px;
