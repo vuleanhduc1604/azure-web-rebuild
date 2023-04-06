@@ -238,7 +238,20 @@ a:focus {
     position: absolute;
     right: 140px;
 }
-
+.fa-xmark {
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 145px;
+    display: none !important;
+}
+.xmark-active {
+    display: flex !important;
+}
+.active-searchTab {
+    display: none !important;
+}
 
 /* Footer */
 footer {
@@ -292,7 +305,7 @@ footer {
         margin-top: 30px;
     }
     .search-wrapper {
-        display: none;
+        display: none !important;
     }
     .anchor {
         font-size: 20px;
